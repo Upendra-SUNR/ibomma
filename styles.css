@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+::-webkit-scrollbar{
+        display: none;
+    }
+header{
+    background-color:rgb(62, 57, 57);
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 5px solid yellow;
+    
+}
+header ol{
+    display: flex;
+    gap: 20px;
+}
+header ol li{
+    list-style: none;
+}
+ img{
+    height: 50px;
+    width: 100px;
+    
+}
+
+
+.div1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: larger;
+}
+.div2{
+    margin-left: 20px;
+    margin-top: 100px;
+    
+   
+}
+.div2 img{
+    height: 300px;
+    width: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.div3{
+    margin-left: 20px;
+}
+.sp{
+  background-color: rgb(86, 78, 78);
+  color: yellow;
+}
+.div4{
+    display: flex;
+    overflow: scroll;
+}
+.div5{
+    display: flex;
+    overflow: scroll;
+}
+.home{
+    display: flex;
+}
+.div2 h2{
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.div5{
+display: flex;
+flex-direction: row;
+}
+.look{
+text-align: center;
+}
+.header1{
+    display: flex;
+    gap: 10px;
+}
+.ba p{
+    font-size: 3rem;
+    color: yellow;
+    font-weight:bold ;
+}
+ol li{
+    margin: 20px;
+    gap: 5px;
+    font-weight: bolder;
+}
+ol li .bi{
+    color:yellow;
+    margin-right: 5px;
+}
+.text1{
+    margin: 20px;
+    background-color: rgb(62, 57, 57);
+    border-radius: 20px;
+    border: 1px solid white;
+    height: 40px;
+   
+    
+}
+.text1 input{
+    color: white;
+    background-color: rgb(62, 57, 57);
+    font-size: 16px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+}
+.text1 button{
+    color: black;
+    background-color:yellow;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 0;
+    margin: 0;
+}
+.text2{
+    display: flex;
+    justify-content: space-between;
+   margin-left: 30%;
+    background-color: rgb(62, 57, 57);
+    border-radius: 20px;
+    border: 1px solid white;
+    height: 40px;
+    width: 500px;
+   
+    
+}
+.text2 input{
+    color: white;
+    background-color: rgb(62, 57, 57);
+    font-size: 16px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+}
+.text2 button{
+    color: black;
+    background-color:yellow;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 0;
+    margin: 0;
+}
+@media(max-width:600px) {
+    .home{display: none;}
+    .text2{
+       margin-left: 0;
+        width: 100%; 
+    }
+    .ba p{
+        font-size: 1rem;
+        margin: 0;
+    }
+    .text1{
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+}
